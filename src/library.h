@@ -17,6 +17,10 @@
 /* Prototypes:
 ====================================================*/
 	void menu(void);
+	void push(tree original, tree root, int *pointer);
+	void inserting(tree original, tree root, int *pointer, int i);
+	void pop(tree originalTree);
+	void display(tree originalTree);
 
 /* Structure:
 ====================================================*/

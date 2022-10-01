@@ -91,7 +91,7 @@
 			// Deciding for which side to go:
 				// Left Side:
 					if(*(pointer+i) < root) {
-						while() {
+						while(newTree->left) {
 
 						}
 
@@ -119,7 +119,7 @@
 
 /* Pop:
 ====================================================*/
-	void pop() {
+	void pop(tree originalTree) {
 
 	}
 
